@@ -25,7 +25,8 @@ You need to have mitmproxy installed for this to work.
   ```bash
   pip install mitmproxy
 
+> ⚠️ **Warning:** Be sure to have the mitmproxy CA installed to be able to decrypt HTTPS traffic
+
+
 ## Potential Todo:
 Patch the parsec DLL to dinamycally set the key to True when its received
-
-> ⚠️ **Warning:** Be sure to have the mitmproxy CA installed to be able to decrypt HTTPS traffic
