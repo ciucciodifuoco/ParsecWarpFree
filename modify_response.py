@@ -9,7 +9,7 @@ def request(flow: http.HTTPFlow) -> None:
 def response(flow: http.HTTPFlow) -> None:
     
     
-    if flow.request.pretty_url.endswith("/me"):
+    if flow.request.pretty_host.endswith("parsec.app") and flow.request.pretty_url.endswith("/me"):
         
         data = json.loads(flow.response.content)
         if "data" in data and "warp" in data["data"]:
