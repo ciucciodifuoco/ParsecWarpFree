@@ -27,6 +27,9 @@ You need to have mitmproxy installed for this to work.
 
 > ⚠️ **Warning:** Be sure to have the mitmproxy CA installed to be able to decrypt HTTPS traffic
 
+## ⚙️ Run
+
+use launch_parsec.bat - assuming mitmdump command is available and Parsec is installed in C:\Program Files\Parsec
 
 ## Potential Todo:
 Patch the parsec DLL to dinamycally set the key to True when its received
